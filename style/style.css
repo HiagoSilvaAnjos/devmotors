@@ -13,7 +13,7 @@ body {
 
 .container {
     margin: auto;
-    max-width: 1400px;
+    max-width: 1200px;
 }
 
 header {
@@ -27,12 +27,14 @@ header {
     text-align: center;
     margin-bottom: 20px;
     font-size: 3em;
+    font-family: 'Monoton', arial, sans-serif, cursive;
 }
 
 #paragrafo_title {
     text-align: center;
     font-weight: bold;
     font-size: 1.3em;
+    font-family: 'Carter One', arial, sans-serif, cursive;
 }
 
 nav {
@@ -59,3 +61,67 @@ li {
     background-color: #242319;
     border-radius: 5px;
 }
+
+.formContainer {
+    padding: 20px;
+    background-image: url("../images/background/vehicles.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+ .formContainer::after {
+     content: "";
+     clear: both;
+     display: table;
+}
+
+.formContent {
+    background-color: #aca8a8c9;
+    border-radius: 5px;
+    max-width: 280px;
+    height: 500px;
+    padding: 20px;
+    float: right;
+    box-sizing: border-box;
+}
+
+.title_form {
+    font-size: 22.9px;
+}
+
+.text_form {
+    text-align: justify;
+    font-size: 17px;
+}
+
+.margin {
+    margin-bottom: 25px;
+}
+
+input, select {
+    background-color: #ffffff;
+    border-radius: 2px;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #302b2b;
+    font-weight: bold;
+    border-radius: 5px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #a79f08;
+}
+
+input[type="submit"]:active {
+    background-color: #a30606;
+}
+
