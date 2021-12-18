@@ -125,11 +125,35 @@ input[type="submit"]:active {
     background-color: #a30606;
 }
 
-#bikes {
-    background-color: rgb(0, 0, 0);
-    color: #ffffff;
+img {
+    border-radius: 10px;
 }
 
-#bike1 {
-   color: white;
+#bikes {
+    background-color: rgb(39, 38, 38);
+    color: #ffffff;
+    overflow: hidden;
+    text-align: center;
 }
+
+#bikes > h3 {
+    margin: 70px 0px 80px 0px;
+}
+
+#alinhamento {
+    position: relative;
+    right: 25%;
+}
+
+.floatBikes {
+    float: right;
+}
+
+.floatBikes2 {
+    float: right;
+}
+
+#bike3 {
+    clear: both;    
+}
+
