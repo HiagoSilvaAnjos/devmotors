@@ -125,3 +125,11 @@ input[type="submit"]:active {
     background-color: #a30606;
 }
 
+#bikes {
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+}
+
+#bike1 {
+   color: white;
+}
