@@ -134,17 +134,24 @@ img {
     color: #ffffff;
     overflow: hidden;
     text-align: center;
+    position: relative;
+    height: 1000px;
 }
 
 #bikes > h3 {
+    font-size: 2.5em;
     margin: 70px 0px 80px 0px;
 }
 
-#alinhamento {
-    position: relative;
-    right: 25%;
+/* Vai alinhar ao centro */
+.alinhamento {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
+/* flutuar as divs */
 .floatBikes {
     float: right;
 }
@@ -153,7 +160,158 @@ img {
     float: right;
 }
 
+/* configurações das divbike */
+#bike1 {
+    position: relative;
+    left: 150px;
+    margin-bottom: 80px;
+}
+
+#bike2 {
+    position: relative;
+    right: 150px;
+    margin-bottom: 80px;
+}
+
 #bike3 {
-    clear: both;    
+    clear: both;  
+    position: relative;
+    left: 150px; 
+    margin-bottom: 80px; 
+}
+
+#bike4 {
+    position: relative;
+    right: 150px;
+    margin-bottom: 80px;
+}
+
+@media screen and (max-width: 600px) {
+    
+    .formContainer {
+        padding: 20px;
+        background-image: url("../images/background/vehicles.jpg");
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+    
+     .formContainer::after {
+         content: "";
+         clear: both;
+         display: table;
+    }
+    
+    .formContent {
+        background-color: #aca8a8c9;
+        border-radius: 5px;
+        max-width: 280px;
+        height: 500px;
+        padding: 20px;
+        float: right;
+        box-sizing: border-box;
+    }
+    
+    .title_form {
+        font-size: 22.9px;
+    }
+    
+    .text_form {
+        text-align: justify;
+        font-size: 17px;
+    }
+    
+    .margin {
+        margin-bottom: 25px;
+    }
+    
+    input, select {
+        background-color: #ffffff;
+        border-radius: 2px;
+        width: 100%;
+        padding: 10px;
+        border: none;
+        margin-bottom: 10px;
+        box-sizing: border-box;
+    }
+    
+    input[type="submit"] {
+        background-color: #302b2b;
+        font-weight: bold;
+        border-radius: 5px;
+        color: #ffffff;
+        cursor: pointer;
+    }
+    
+    input[type="submit"]:hover {
+        background-color: #a79f08;
+    }
+    
+    input[type="submit"]:active {
+        background-color: #a30606;
+    }
+    
+    img {
+        border-radius: 10px;
+    }
+
+    /* sessão bikes */
+    #bikes {
+        background-color: rgb(39, 38, 38);
+        color: #ffffff;
+        overflow: hidden;
+        text-align: center;
+        position: relative;
+        height: 1700px;
+    }
+    
+    #bikes > h3 {
+        font-size: 2.5em;
+        margin: 70px 0px 80px 0px;
+    }
+    
+    /* Vai alinhar ao centro */
+    .alinhamento {
+        position: absolute;
+        top: 15%;
+        left: 0%;
+        right: 20%;
+        transform: translate(0%, 0%);
+    }
+    
+    /* flutuar as divs */
+    .floatBikes {
+        float: right;
+    }
+    
+    .floatBikes2 {
+        float: right;
+    }
+    
+    /* configurações das divbike */
+    #bike1 {
+        position: relative;
+        left: 0px;
+        margin-bottom: 80px;
+    }
+    
+    #bike2 {
+        position: relative;
+        right: 0px;
+        margin-bottom: 80px;
+    }
+    
+    #bike3 {
+        clear: both;  
+        position: relative;
+        left: 0px; 
+        margin-bottom: 80px; 
+    }
+    
+    #bike4 {
+        position: relative;
+        right: 0px;
+        margin-bottom: 80px;
+    }
 }
 
