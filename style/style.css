@@ -16,6 +16,7 @@ body {
     max-width: 1200px;
 }
 
+/* CABEÇALHO */
 header {
     padding: 40px;
     color: white;
@@ -37,6 +38,7 @@ header {
     font-family: 'Carter One', arial, sans-serif, cursive;
 }
 
+/* NAVEGAÇÃO */
 nav {
     background-color: #393827;
     overflow: hidden;
@@ -62,6 +64,7 @@ li {
     border-radius: 5px;
 }
 
+/* FORMULÁRIO */
 .formContainer {
     padding: 20px;
     background-image: url("../images/background/vehicles.jpg");
@@ -125,10 +128,12 @@ input[type="submit"]:active {
     background-color: #a30606;
 }
 
+/* TODAS AS IMAGENS */
 img {
     border-radius: 10px;
 }
 
+/* SESSÃO BIKES */
 #bikes {
     background-color: rgb(39, 38, 38);
     color: #ffffff;
@@ -184,6 +189,29 @@ img {
     position: relative;
     right: 150px;
     margin-bottom: 80px;
+}
+
+/* Configurações de títulos e parágrafo das sessões */
+
+.titleVeicles {
+    text-align: left;
+    text-transform: uppercase;
+    color: #19bd0a;
+    font-weight: 700;
+}
+
+.descriptionBuy {
+    background-color: rgb(83, 79, 79);
+    color: #000000;
+    text-align: left;
+}
+
+.buttomBuy {
+    background-color: green;
+    padding: 10px;
+    font-weight: bold;
+    width: 50%;
+    text-align: center;
 }
 
 @media screen and (max-width: 600px) {
