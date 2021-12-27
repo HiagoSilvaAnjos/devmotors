@@ -140,7 +140,7 @@ img {
     overflow: hidden;
     text-align: center;
     position: relative;
-    height: 1000px;
+    height: 1200px;
 }
 
 #bikes > h3 {
@@ -151,7 +151,7 @@ img {
 /* Vai alinhar ao centro */
 .alinhamento {
     position: absolute;
-    top: 60%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -195,9 +195,8 @@ img {
 
 .titleVeicles {
     text-align: left;
-    text-transform: uppercase;
-    color: #19bd0a;
-    font-weight: 700;
+    color: #ffffff;
+    font-weight: 400;
 }
 
 .descriptionBuy {
