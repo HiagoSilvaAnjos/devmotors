@@ -234,6 +234,8 @@ img {
     background-color: #a30606;
 }
 
+
+/* MEDIA QUEIRES PARA DIFERENTES TIPOS DE TELA */
 @media screen and (max-width: 1300px) {
     .veicles {
         background-color: #201f1f;
@@ -292,7 +294,423 @@ img {
     }
 }
 
+@media screen and (max-width: 1150px) {
+    .veicles {
+        background-color: #201f1f;
+        color: #ffffff;
+        overflow: hidden;
+        text-align: center;
+        position: relative;
+        height: 1300px;
+    }
+    
+    .veicles > h3 {
+        font-size: 2.5em;
+        margin: 70px 0px 80px 0px;
+    }
+    
+    /* Vai alinhar ao centro */
+    .alinhamento {
+        position: absolute;
+        top: -18%;
+        left: 0%;
+        transform: translate(50%, 50%);
+    }
+    
+    /* flutuar as divs */
+    .floatveicles {
+        float: right;
+    }
+    
+    .floatveicles2 {
+        float: right;
+    }
+
+    .veicle1 {
+        position: relative;
+        left: 60px;
+        margin-bottom: 100px;
+    }
+    
+    .veicle2 {
+        position: relative;
+        right: 140px;
+        margin-bottom: 100px;
+    }
+    
+    .veicle3 {
+        clear: both;  
+        position: relative;
+        left: 60px; 
+        margin-bottom: 100px; 
+    }
+    
+    .veicle4 {
+        position: relative;
+        right: 140px;
+        margin-bottom: 100px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .veicles {
+        background-color: #201f1f;
+        color: #ffffff;
+        overflow: hidden;
+        text-align: center;
+        position: relative;
+        height: 1300px;
+    }
+    
+    .veicles > h3 {
+        font-size: 2.5em;
+        margin: 70px 40px 70px 0px;
+    }
+    
+    /* Vai alinhar ao centro */
+    .alinhamento {
+        position: absolute;
+        top: -18%;
+        left: 0%;
+        transform: translate(50%, 50%);
+    }
+    
+    /* flutuar as divs */
+    .floatveicles {
+        float: right;
+    }
+    
+    .floatveicles2 {
+        float: right;
+    }
+
+    .veicle1 {
+        position: relative;
+        left: 20px;
+        margin-bottom: 100px;
+    }
+    
+    .veicle2 {
+        position: relative;
+        right: 140px;
+        margin-bottom: 100px;
+    }
+    
+    .veicle3 {
+        clear: both;  
+        position: relative;
+        left: 20px; 
+        margin-bottom: 100px; 
+    }
+    
+    .veicle4 {
+        position: relative;
+        right: 140px;
+        margin-bottom: 100px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .veicles {
+        background-color: #201f1f;
+        color: #ffffff;
+        overflow: hidden;
+        text-align: center;
+        position: relative;
+        height: 2400px;
+    }
+    
+    .veicles > h3 {
+        font-size: 2.5em;
+        margin: 70px 40px 70px 0px;
+    }
+    
+    /* Vai alinhar ao centro */
+    .alinhamento {
+        position: absolute;
+        top: -32%;
+        left: 0%;
+        transform: translate(50%, 50%);
+    }
+    
+    /* flutuar as divs */
+    .floatveicles {
+        float: none;
+    }
+    
+    .floatveicles2 {
+        float: none;
+    }
+
+    .veicle1 {
+        position: relative;
+        left: 140px;
+        margin-bottom: 140px;
+    }
+    
+    .veicle2 {
+        position: relative;
+        left: 140px;
+        margin-bottom: 140px;
+    }
+    
+    .veicle3 {
+        clear: both;  
+        position: relative;
+        left: 140px; 
+        margin-bottom: 140px; 
+    }
+    
+    .veicle4 {
+        position: relative;
+        left: 140px;
+        margin-bottom: 140px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .veicles {
+        background-color: #201f1f;
+        color: #ffffff;
+        overflow: hidden;
+        text-align: center;
+        position: relative;
+        height: 2400px;
+    }
+    
+    .veicles > h3 {
+        font-size: 2.5em;
+        margin: 70px 40px 70px 0px;
+    }
+    
+    /* Vai alinhar ao centro */
+    .alinhamento {
+        position: absolute;
+        top: -32%;
+        left: -2%;
+        transform: translate(50%, 50%);
+    }
+    
+    /* flutuar as divs */
+    .floatveicles {
+        float: none;
+    }
+    
+    .floatveicles2 {
+        float: none;
+    }
+
+    .veicle1 {
+        position: relative;
+        left: 140px;
+        margin-bottom: 140px;
+    }
+    
+    .veicle2 {
+        position: relative;
+        left: 140px;
+        margin-bottom: 140px;
+    }
+    
+    .veicle3 {
+        clear: both;  
+        position: relative;
+        left: 140px; 
+        margin-bottom: 140px; 
+    }
+    
+    .veicle4 {
+        position: relative;
+        left: 140px;
+        margin-bottom: 140px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .veicles {
+        background-color: #201f1f;
+        color: #ffffff;
+        overflow: hidden;
+        text-align: center;
+        position: relative;
+        height: 2400px;
+    }
+    
+    .veicles > h3 {
+        font-size: 2.5em;
+        margin: 70px 40px 70px 0px;
+    }
+    
+    /* Vai alinhar ao centro */
+    .alinhamento {
+        position: absolute;
+        top: -32%;
+        left: -8.5%;
+        transform: translate(50%, 50%);
+    }
+    
+    /* flutuar as divs */
+    .floatveicles {
+        float: none;
+    }
+    
+    .floatveicles2 {
+        float: none;
+    }
+
+    .veicle1 {
+        position: relative;
+        left: 140px;
+        margin-bottom: 140px;
+    }
+    
+    .veicle2 {
+        position: relative;
+        left: 140px;
+        margin-bottom: 140px;
+    }
+    
+    .veicle3 {
+        clear: both;  
+        position: relative;
+        left: 140px; 
+        margin-bottom: 140px; 
+    }
+    
+    .veicle4 {
+        position: relative;
+        left: 140px;
+        margin-bottom: 140px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .veicles {
+        background-color: #201f1f;
+        color: #ffffff;
+        overflow: hidden;
+        text-align: center;
+        position: relative;
+        height: 2400px;
+    }
+    
+    .veicles > h3 {
+        font-size: 2.5em;
+        margin: 70px 40px 70px 0px;
+    }
+    
+    /* Vai alinhar ao centro */
+    .alinhamento {
+        position: absolute;
+        top: -32%;
+        left: -15%;
+        transform: translate(50%, 50%);
+    }
+    
+    /* flutuar as divs */
+    .floatveicles {
+        float: none;
+    }
+    
+    .floatveicles2 {
+        float: none;
+    }
+
+    .veicle1 {
+        position: relative;
+        left: 140px;
+        margin-bottom: 140px;
+    }
+    
+    .veicle2 {
+        position: relative;
+        left: 140px;
+        margin-bottom: 140px;
+    }
+    
+    .veicle3 {
+        clear: both;  
+        position: relative;
+        left: 140px; 
+        margin-bottom: 140px; 
+    }
+    
+    .veicle4 {
+        position: relative;
+        left: 140px;
+        margin-bottom: 140px;
+    }
+}
+
 @media screen and (max-width: 600px) {
+    .veicles {
+        background-color: #201f1f;
+        color: #ffffff;
+        overflow: hidden;
+        text-align: center;
+        position: relative;
+        height: 2400px;
+    }
+    
+    .veicles > h3 {
+        font-size: 2.5em;
+        margin: 70px 40px 70px 0px;
+    }
+    
+    /* Vai alinhar ao centro */
+    .alinhamento {
+        position: absolute;
+        top: -32%;
+        left: -27%;
+        transform: translate(50%, 50%);
+    }
+    
+    /* flutuar as divs */
+    .floatveicles {
+        float: none;
+    }
+    
+    .floatveicles2 {
+        float: none;
+    }
+
+    .veicle1 {
+        position: relative;
+        left: 140px;
+        margin-bottom: 140px;
+    }
+    
+    .veicle2 {
+        position: relative;
+        left: 140px;
+        margin-bottom: 140px;
+    }
+    
+    .veicle3 {
+        clear: both;  
+        position: relative;
+        left: 140px; 
+        margin-bottom: 140px; 
+    }
+    
+    .veicle4 {
+        position: relative;
+        left: 140px;
+        margin-bottom: 140px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    /* Vai alinhar ao centro */
+    .alinhamento {
+        position: absolute;
+        top: -32%;
+        left: -35%;
+        transform: translate(50%, 50%);
+    }
+}
+
+@media screen and (max-width: 500px) {
     
     .links_nav {
         text-decoration: none;
@@ -376,7 +794,7 @@ img {
     
     .veicle2 {
         position: relative;
-        right: 0px;
+        left: 0px;
         margin-bottom: 80px;
     }
     
@@ -389,8 +807,54 @@ img {
     
     .veicle4 {
         position: relative;
-        right: 0px;
+        left: 0px;
         margin-bottom: 80px;
     }
 }
 
+@media screen and (max-width: 430px) {
+    nav {
+    background-color: #272525;
+    overflow: hidden;
+    padding: 10px;
+}
+
+li {
+    font-weight: 500;
+    color: #ffffff;
+    float: left;
+    list-style: none;
+}
+
+.links_nav {
+    text-decoration: none;
+    color: #beb9b9;
+    padding: 10px;
+    margin-right: 17px;
+}
+
+.links_nav:hover {
+    background-color: #42423f;
+    border-radius: 5px;
+}
+
+
+    /* sessão bikes */
+    .veicles {
+        background-color: rgb(39, 38, 38);
+        color: #ffffff;
+        overflow: hidden;
+        text-align: center;
+        position: relative;
+        height: 2170px;
+    }
+    
+    /* Vai alinhar ao centro */
+    .alinhamento {
+        position: absolute;
+        top: 10%;
+        left: 0%;
+        right: 15%;
+        transform: translate(0%, 0%);
+    }
+}
