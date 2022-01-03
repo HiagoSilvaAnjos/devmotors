@@ -20,7 +20,7 @@ body {
 header {
     padding: 40px;
     color: white;
-    background-color: #bbbbb2;
+    background-color: #3a3737;
     color: #000000;
 }
 
@@ -80,7 +80,7 @@ li {
 }
 
 .formContent {
-    background-color: #aca8a8c9;
+    background-color: #aca8a8de;
     border-radius: 5px;
     max-width: 280px;
     height: 500px;
@@ -122,10 +122,6 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
     background-color: #a79f08;
-}
-
-input[type="submit"]:active {
-    background-color: #a30606;
 }
 
 /* TODAS AS IMAGENS */
@@ -228,10 +224,6 @@ img {
 
 .linkbuy:hover {
     background-color: #00ff00;
-}
-
-.linkbuy:active {
-    background-color: #a30606;
 }
 
 
@@ -410,6 +402,25 @@ img {
     }
 }
 
+@media screen and (max-width: 1024px) {
+    /* Vai alinhar ao centro */
+    .alinhamento {
+        position: absolute;
+        top: -15%;
+        left: -3%;
+        transform: translate(50%, 50%);
+    }
+
+    .veicles {
+        background-color: #201f1f;
+        color: #ffffff;
+        overflow: hidden;
+        text-align: center;
+        position: relative;
+        height: 1900px;
+    }
+}
+
 @media screen and (max-width: 1000px) {
     .veicles {
         background-color: #201f1f;
@@ -581,6 +592,17 @@ img {
         position: relative;
         left: 140px;
         margin-bottom: 140px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .veicles {
+        background-color: #201f1f;
+        color: #ffffff;
+        overflow: hidden;
+        text-align: center;
+        position: relative;
+        height: 2700px;
     }
 }
 
@@ -814,29 +836,33 @@ img {
 
 @media screen and (max-width: 430px) {
     nav {
-    background-color: #272525;
-    overflow: hidden;
-    padding: 10px;
-}
+        background-color: #27252585;
+        overflow: hidden;
+        padding: 10px;
+    }
 
-li {
-    font-weight: 500;
-    color: #ffffff;
-    float: left;
-    list-style: none;
-}
+    li {
+        font-weight: 600;
+        color: #ffffff;
+        float: none;
+        list-style: none;
+        text-align: center;
+        margin-bottom: 10px;
+    }
 
-.links_nav {
-    text-decoration: none;
-    color: #beb9b9;
-    padding: 10px;
-    margin-right: 17px;
-}
+    .links_nav {
+        display: block;
+        width: 100%;
+        text-decoration: none;
+        color: #beb9b9;
+        padding: 10px;
+        margin-right: 17px;
+    }
 
-.links_nav:hover {
-    background-color: #42423f;
-    border-radius: 5px;
-}
+    .links_nav:hover {
+        background-color: #292927;
+        border-radius: 5px;
+    }
 
 
     /* sessão bikes */
@@ -855,6 +881,68 @@ li {
         top: 10%;
         left: 0%;
         right: 15%;
+        transform: translate(0%, 0%);
+    }
+}
+
+@media screen and (max-width: 380px) {
+    #title {
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 2.6em;
+        font-family: 'Monoton', arial, sans-serif, cursive;
+    }
+    
+    #paragrafo_title {
+        text-align: center;
+        font-weight: 500;
+        font-size: 1em;
+        font-family: 'Carter One', arial, sans-serif, cursive;
+    }
+
+    
+    /* Vai alinhar ao centro */
+    .alinhamento {
+        position: absolute;
+        top: 10%;
+        left: 0%;
+        right: 10%;
+        transform: translate(0%, 0%);
+    }
+}
+
+@media screen and (max-width: 360px) {
+    /* Vai alinhar ao centro */
+    .alinhamento {
+        position: absolute;
+        top: 10%;
+        left: 0%;
+        right: 8%;
+        transform: translate(0%, 0%);
+    }
+}
+
+@media screen and (max-width: 320px) {
+    #title {
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 2em;
+        font-family: 'Monoton', arial, sans-serif, cursive;
+    }
+    
+    #paragrafo_title {
+        text-align: center;
+        font-weight: 500;
+        font-size: 14px;
+        font-family: 'Carter One', arial, sans-serif, cursive;
+    }
+
+    /* Vai alinhar ao centro */
+    .alinhamento {
+        position: absolute;
+        top: 10%;
+        left: 0%;
+        right: 3%;
         transform: translate(0%, 0%);
     }
 }
