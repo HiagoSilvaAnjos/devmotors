@@ -7,7 +7,7 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #0e0d0d;
+    background-color: #000000e3;
 
 }
 
@@ -20,14 +20,14 @@ body {
 header {
     padding: 40px;
     color: white;
-    background-color: #3a3737;
+    background-color: #c4a003;
     color: #000000;
 }
 
 #title {
     text-align: center;
     margin-bottom: 20px;
-    font-size: 3em;
+    font-size: 3.8em;
     font-family: 'Monoton', arial, sans-serif, cursive;
 }
 
@@ -40,7 +40,7 @@ header {
 
 /* NAVEGAÇÃO */
 nav {
-    background-color: #64635f;
+    background-color: #3f3e3b;
     overflow: hidden;
     padding: 15px;
 }
@@ -60,7 +60,7 @@ li {
 }
 
 .links_nav:hover {
-    background-color: #42423f;
+    background-color: #31312f;
     border-radius: 5px;
 }
 
@@ -127,27 +127,45 @@ input[type="submit"]:hover {
 /* TODAS AS IMAGENS */
 img {
     border-radius: 5px;
+    margin-bottom: -5px;
 }
 
-/* SESSÃO BIKES */
+/* SESSÃO VEÍCULOS */
 .veicles {
     background-color: #201f1f;
     color: #ffffff;
-    overflow: hidden;
     text-align: center;
     position: relative;
-    height: 1200px;
+    height: 1800px;
+}
+
+.veicles::after {
+    content: "";
+    clear: both;
+    display: table;
 }
 
 .veicles > h3 {
     font-size: 2.5em;
-    margin: 70px 0px 80px 0px;
+    padding-top: 70px;
+}
+
+#titleMoto {
+    position: relative;
+    bottom: 550px;
 }
 
 /* Vai alinhar ao centro */
 .alinhamento {
     position: absolute;
-    top: 60%;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.alinhamentoMotos {
+    position: absolute;
+    top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -193,8 +211,9 @@ img {
     text-align: left;
     color: #fffbfb;
     font-weight: 300;
-    padding-top: 5px;
+    padding-top: 10px;
     padding-bottom: 10px;
+    padding-left: 1px;
 }
 
 .descriptionBuy {
@@ -202,11 +221,17 @@ img {
     color: #c2bfbf;
     text-align: left;
     border-radius: 0px 0px 5px 5px;
+    padding-left: 1px;
 }
 
 .price {
     font-size: 1.3em;;
     font-weight: 500;
+    padding-left: 1px;
+}
+
+.portion {
+    padding-left: 1px;
 }
 
 .linkbuy {
@@ -836,7 +861,7 @@ img {
 
 @media screen and (max-width: 430px) {
     nav {
-        background-color: #27252585;
+        background-color: #3f3e3b;
         overflow: hidden;
         padding: 10px;
     }
@@ -861,7 +886,7 @@ img {
 
     .links_nav:hover {
         background-color: #292927;
-        border-radius: 5px;
+        border-radius: 0px;
     }
 
 
