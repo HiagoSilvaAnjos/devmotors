@@ -15,62 +15,114 @@
 </head>
 
 <body>
-        <header>
-            <h1 id="title">DevMotors</h1>
-            <p id="paragrafo_title">
-                Aqui você vai encontrar os mais variados tipos de veículos
+    <header>
+        <h1 id="title">DevMotors</h1>
+        <p id="paragrafo_title">
+            Aqui você vai encontrar os mais variados tipos de veículos
+        </p>
+    </header>
+    <nav>
+        <ul>
+            <li>
+                <a class="links_nav" href="#form">Cadastre-se</a>
+            </li>
+            <li>
+                <a class="links_nav" href="#Bikes">Bicicletas</a>
+            </li>
+            <li>
+                <a class="links_nav" href="">Motos</a>
+            </li>
+            <li>
+                <a class="links_nav" href="">Carros</a>
+            </li>
+        </ul>
+    </nav>
+    <section class="formContainer">
+        <div class="formContent" id="form">
+            <h2 class="margin title_form">
+                Cadastre-se aqui para receber as melhores ofertas para comprar o seu veículo
+            </h2>
+            <p class="margin text_form">
+                Cadastrando o seu email aqui, você irá receber antes de todo mundo, simplismente, os mais
+                recheados descontos para você comprar o seu veículo dos sonhos.
             </p>
-        </header>
-        <nav>
-            <ul>
-                <li>
-                    <a class="links_nav" href="">Cadastre-se</a>
-                </li>
-                <li>
-                    <a class="links_nav" href="">Bicicletas</a>
-                </li>
-                <li>
-                    <a class="links_nav" href="">Motos</a>
-                </li>
-                <li>
-                    <a class="links_nav" href="">Carros</a>
-                </li>
-            </ul>
-        </nav>
-        <section>
-            <div class="formContainer">
-                <div class="formContent">
-                    <h2 class="margin title_form">
-                        Cadastre-se aqui para receber as melhores ofertas para comprar o seu veículo
-                    </h2>
-                    <p class="margin text_form">
-                        Cadastrando o seu email aqui, você irá receber antes de todo mundo, simplismente, os mais
-                        recheados descontos para você comprar o seu veículo dos sonhos.
-                    </p>
-                    <form action="" method="get" validate>
-                        <input type="text" name="FNAME" id="name" placeholder="Digite seu nome">
-                        <input type="email" name="EMAIL" id="email" placeholder="Digite seu email">
-                        <select name="PLACE">
-                            <option value="pa">
-                                Pará
-                            </option>
-                            <option value="rj">
-                                Rio de Janeiro
-                            </option>
-                            <option value="mg">
-                                Minas Gerais
-                            </option>
-                            <option value="sp">
-                                São Paulo
-                            </option>
-                            <option value="outro">
-                                Outro
-                            </option>
-                        </select>
-                        <input type="submit" value="CADASTRE-SE">
-                    </form>
-                </div>
-        </section>
+            <form action="" method="get" validate>
+                <input type="text" name="FNAME" id="name" placeholder="Digite seu nome">
+                <input type="email" name="EMAIL" id="email" placeholder="Digite seu email">
+                <select name="PLACE">
+                    <option value="pa">
+                        Pará
+                    </option>
+                    <option value="rj">
+                        Rio de Janeiro
+                    </option>
+                    <option value="mg">
+                        Minas Gerais
+                    </option>
+                    <option value="sp">
+                        São Paulo
+                    </option>
+                    <option value="outro">
+                        Outro
+                    </option>
+                </select>
+                <input type="submit" value="CADASTRE-SE">
+            </form>
+        </div>
+    </section>
+    <!-- Sessão bikes -->
+    <section class="sectionBike" id="Bikes">
+        <h2 id="titleBikes">BICICLETAS</h2>
+        <div class="description">
+            <img src="./images/bikes/bike_basic.jpg" alt="">
+            <h2 class="titleBike">Bicicleta branca de tal</h2>
+            <p class="descriptionBuy">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem ex ducimus adipisci, debitis
+                dolores quas eaque praesentium dolorum quam, aspernatur, reiciendis in nam ullam dolorem. Delectus
+                officia labore blanditiis ex?
+            </p>
+            <p class="buttomBuy">
+                COMPRAR
+            </p>
+        </div>
+        <div class="description">
+            <img src="./images/bikes/bike_black-green.jpg" alt="">
+            <h2 class="titleBike">Bicicleta branca de tal</h2>
+            <p class="descriptionBuy">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem ex ducimus adipisci, debitis
+                dolores quas eaque praesentium dolorum quam, aspernatur, reiciendis in nam ullam dolorem. Delectus
+                officia labore blanditiis ex?
+            </p>
+            <p class="buttomBuy">
+                COMPRAR
+            </p>
+        </div>
+        </div>
+        <div class="description">
+            <img src="./images/bikes/bike_black-white.jpg" alt="">
+            <h2 class="titleBike">Bicicleta branca de tal</h2>
+            <p class="descriptionBuy">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem ex ducimus adipisci, debitis
+                dolores quas eaque praesentium dolorum quam, aspernatur, reiciendis in nam ullam dolorem. Delectus
+                officia labore blanditiis ex?
+            </p>
+            <p class="buttomBuy">
+                COMPRAR
+            </p>
+        </div>
+        <div class="description">
+            <img src="./images/bikes/bike_black.jpg" alt="">
+            <h2 class="titleBike">Bicicleta branca de tal</h2>
+            <p class="descriptionBuy">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem ex ducimus adipisci, debitis
+                dolores quas eaque praesentium dolorum quam, aspernatur, reiciendis in nam ullam dolorem. Delectus
+                officia labore blanditiis ex?
+            </p>
+            <p class="buttomBuy">
+                COMPRAR
+            </p>
+        </div>
+    </section>
 </body>
 
 </html>

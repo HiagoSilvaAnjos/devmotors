@@ -39,7 +39,7 @@ nav {
     background-color: #3f3e3b;
     overflow: hidden;
     padding: 15px;
-    width: 100%;
+    max-width: 100%;
 }
 
 li {
@@ -68,7 +68,7 @@ li {
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    width: 100%;
+    max-width: 100%;
 }
 
  .formContainer::after {
@@ -120,4 +120,55 @@ input[type="submit"] {
 
 input[type="submit"]:hover {
     background-color: #a79f08;
+}
+
+/* Imagens */
+
+img {
+    width: 100%;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+/* Sessão bikes */
+
+.sectionBike {
+    background-color: #1d1b1b;
+    max-width: 100%;
+}
+
+#titleBikes {
+    color: #ffffff;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.5em;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.description {
+    background-color: #3a3838;
+    width: 25%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.titleBike {
+    text-align: left;
+    color:white;
+    margin-bottom: 25px;
+}
+
+.descriptionBuy {
+    text-align: left;
+    color: white;
+    margin-bottom: 25px;
+}
+
+.buttomBuy {
+    text-align: center;
+    color: white;
+    background-color: green;
+    width: 50%;
+    padding: 5px;
 }
