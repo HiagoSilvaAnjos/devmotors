@@ -23,14 +23,14 @@ header {
 #title {
     text-align: center;
     margin-bottom: 20px;
-    font-size: 3.8em;
+    font-size: 3em;
     font-family: 'Monoton', arial, sans-serif, cursive;
 }
 
 #paragrafo_title {
     text-align: center;
     font-weight: bold;
-    font-size: 1.4em;
+    font-size: 1.1em;
     font-family: 'Carter One', arial, sans-serif, cursive;
 }
 
@@ -133,7 +133,7 @@ img {
 /* Sessão bikes */
 
 .sectionBike {
-    background-color: #1d1b1b;
+    background-color: #000000;
     max-width: 100%;
     height: 1300px;
 }
@@ -143,7 +143,7 @@ img {
     text-align: center;
     font-weight: bold;
     font-size: 2.5em;
-    margin-top: 100px;
+    padding-top: 100px;
     margin-bottom: 100px;
 }
 
@@ -185,10 +185,4 @@ img {
 
 .clearBikes {
     clear: both;
-}
-
-.sessãoMoto {
-    background-color: red;
-    max-width: 100%;
-    height: 1550px;
 }
