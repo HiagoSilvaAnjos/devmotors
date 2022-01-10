@@ -11,17 +11,13 @@ body {
 
 }
 
-.container {
-    margin: auto;
-    max-width: 1200px;
-}
-
 /* CABEÇALHO */
 header {
     padding: 40px;
     color: white;
     background-color: #f5c907;
     color: #000000;
+    max-width: 100%;
 }
 
 #title {
@@ -34,7 +30,7 @@ header {
 #paragrafo_title {
     text-align: center;
     font-weight: bold;
-    font-size: 1.3em;
+    font-size: 1.4em;
     font-family: 'Carter One', arial, sans-serif, cursive;
 }
 
@@ -43,6 +39,7 @@ nav {
     background-color: #3f3e3b;
     overflow: hidden;
     padding: 15px;
+    width: 100%;
 }
 
 li {
@@ -71,6 +68,7 @@ li {
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
+    width: 100%;
 }
 
  .formContainer::after {
