@@ -158,12 +158,17 @@ img {
     margin-bottom: 100px;
 
     float: left;
-
+    
     position: relative;
     right: 10%;
-
+    
     transform: translate(50%, 0%);
 }
+
+.clearBikes {
+    clear: both;
+}
+
 
 .titleDescriptionBike {
     text-align: left;
@@ -215,6 +220,193 @@ img {
     color: #1b1919;
 }
 
-.clearBikes {
-    clear: both;
+
+
+/* Modificações com Media Queire */
+
+@media screen and (max-width: 1000px) {
+    
+    /* MODIFICAÇÕES DA SESSÃO BIKES */
+
+    .sectionBike { 
+        background-color: #000000;
+        max-width: 100%;
+        height: 2400px;
+    }
+
+    .descriptionBikes {
+        width: 35%;
+        margin-left: 0%;
+
+        float: none;
+
+        position: relative;
+        top: 0%;
+        left: 50%;
+    
+        transform: translate(-50%, 0%);
+    }
+
+    .clearBikes {
+        clear: none;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    /* MODIFICAÇÕES DA SESSÃO BIKES */
+    .descriptionBikes {
+        width: 45%;
+        margin-left: 0%;
+
+        float: none;
+        
+        position: relative;
+        top: 0%;
+        left: 50%;
+    
+        transform: translate(-50%, 0%);
+    }
+
+    .clearBikes {
+        clear: none;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    /* MODIFICAÇÕES DO FORMULÁRIO */
+
+    .formContainer {
+        padding: 0px;
+    }
+
+    .formContent {
+        background-color: #aca8a8a9;
+        border-radius: 0px;
+        max-width: 100%;
+        height: 480px;
+        padding: 20px;
+        float: none;
+        box-sizing: border-box;
+    }
+    
+    .title_form {
+        font-size: 22.9px;
+    }
+    
+    .text_form {
+        text-align: justify;
+        font-size: 17px;
+    }
+    
+    .margin {
+        margin-bottom: 25px;
+    }
+
+    input[type="submit"] {
+        background-color: #302b2b;
+        font-weight: bold;
+        border-radius: 5px;
+        color: #ffffff;
+        cursor: pointer;
+        width: 50%;
+    }
+
+    /* MODIFICAÇÕES DA SESSÃO BIKES */
+
+    .sectionBike { 
+        background-color: #000000;
+        max-width: 100%;
+        height: 2300px;
+    }
+
+    .descriptionBikes {
+        width: 55%;
+        margin-left: 0%;
+
+        float: none;
+        
+        position: relative;
+        top: 0%;
+        left: 50%;
+    
+        transform: translate(-50%, 0%);
+    }
+
+    .clearBikes {
+        clear: none;
+    }
+}
+
+@media screen and (max-width: 450px) {
+
+    /* NAVEGAÇÃO */
+    nav {
+        background-color: #3f3e3b;
+        overflow: hidden;
+        padding: 0px;
+        max-width: 100%;
+    }
+    
+    li {
+        font-weight: 600;
+        float: none;
+        list-style: none;
+        text-align: center;
+        padding: 0px;
+    }
+    
+    .links_nav {
+        display: block;
+        text-decoration: none;
+        color: #ffffff;
+        padding: 15px;
+        margin-right: 0px;
+        width: 100%;
+        border: 1.4px solid black;
+    }
+    
+    .links_nav:hover {
+        background-color: #1d1d1c;
+        border-radius: 0px;
+    }
+
+
+    /* MODIFICAÇÕES DA SESSÃO BIKES */
+
+    .sectionBike { 
+        background-color: #000000;
+        max-width: 100%;
+        height: 2200px;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    /* MODIFICAÇÕES DO CABEÇALHO E NAVEGAÇÃO DO SITE */
+
+    #title {
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 2.6em;
+        font-family: 'Monoton', arial, sans-serif, cursive;
+    }
+    
+    #paragrafo_title {
+        text-align: center;
+        font-weight: bold;
+        font-size: 1em;
+        font-family: 'Carter One', arial, sans-serif, cursive;
+    }
+    
+
+    /* MODIFICAÇÕES DA SESSÃO BIKES */
+
+    .sectionBike { 
+        background-color: #000000;
+        max-width: 100%;
+        height: 2150px;
+    }
+
 }
