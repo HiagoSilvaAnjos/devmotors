@@ -1,591 +1,631 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #000000e3;
-
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #000000e3;
 }
 
 /* CABEÇALHO */
 header {
-    padding: 40px;
-    color: white;
-    background-color: #f5c907;
-    color: #000000;
-    max-width: 100%;
+  padding: 40px;
+  color: white;
+  background-color: #f5c907;
+  color: #000000;
+  max-width: 100%;
 }
 
 #title {
-    text-align: center;
-    margin-bottom: 20px;
-    font-size: 3em;
-    font-family: 'Monoton', arial, sans-serif, cursive;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 3em;
+  font-family: "Monoton", arial, sans-serif, cursive;
 }
 
 #paragrafo_title {
-    text-align: center;
-    font-weight: bold;
-    font-size: 1.1em;
-    font-family: 'Carter One', arial, sans-serif, cursive;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.1em;
+  font-family: "Carter One", arial, sans-serif, cursive;
 }
 
 /* NAVEGAÇÃO */
 nav {
-    background-color: #3f3e3b;
-    overflow: hidden;
-    padding: 15px;
-    max-width: 100%;
+  background-color: #3f3e3b;
+  overflow: hidden;
+  padding: 15px;
+  max-width: 100%;
 }
 
 li {
-    font-weight: bold;
-    color: #ffffff;
-    float: left;
-    list-style: none;
+  font-weight: bold;
+  color: #ffffff;
+  float: left;
+  list-style: none;
 }
 
 .links_nav {
-    text-decoration: none;
-    color: #ffffff;
-    padding: 10px;
-    margin-right: 25px;
+  text-decoration: none;
+  color: #ffffff;
+  padding: 10px;
+  margin-right: 25px;
 }
 
 .links_nav:hover {
-    background-color: #1d1d1c;
-    border-radius: 5px;
+  background-color: #1d1d1c;
+  border-radius: 5px;
 }
 
 /* FORMULÁRIO */
 .formContainer {
-    padding: 20px;
-    background-image: url("../images/background/vehicles.jpg");
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    max-width: 100%;
+  padding: 20px;
+  background-image: url("../images/background/vehicles.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  max-width: 100%;
 }
 
- .formContainer::after {
-     content: "";
-     clear: both;
-     display: table;
+.formContainer::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
 .formContent {
-    background-color: #aca8a8de;
-    border-radius: 5px;
-    max-width: 280px;
-    height: 500px;
-    padding: 20px;
-    float: right;
-    box-sizing: border-box;
+  background-color: #aca8a8de;
+  border-radius: 5px;
+  max-width: 280px;
+  height: 500px;
+  padding: 20px;
+  float: right;
+  box-sizing: border-box;
 }
 
 .title_form {
-    font-size: 22.9px;
+  font-size: 22.9px;
 }
 
 .text_form {
-    text-align: justify;
-    font-size: 17px;
+  text-align: justify;
+  font-size: 17px;
 }
 
 .margin {
-    margin-bottom: 25px;
+  margin-bottom: 25px;
 }
 
-input, select {
-    background-color: #ffffff;
-    border-radius: 2px;
-    width: 100%;
-    padding: 10px;
-    border: none;
-    margin-bottom: 10px;
-    box-sizing: border-box;
+input,
+select {
+  background-color: #ffffff;
+  border-radius: 2px;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  margin-bottom: 10px;
+  box-sizing: border-box;
 }
 
 input[type="submit"] {
-    background-color: #302b2b;
-    font-weight: bold;
-    border-radius: 5px;
-    color: #ffffff;
-    cursor: pointer;
+  background-color: #302b2b;
+  font-weight: bold;
+  border-radius: 5px;
+  color: #ffffff;
+  cursor: pointer;
 }
 
 input[type="submit"]:hover {
-    background-color: #a79f08;
+  background-color: #a79f08;
 }
 
 /* Imagens */
 
 img {
-    width: 100%;
-    display: inline-block;
-    border-radius: 5px 5px 0 0;
+  width: 100%;
+  display: inline-block;
+  border-radius: 5px 5px 0 0;
 }
 
 /* Sessão bikes */
 
-.sectionBike { 
-    background-color: #000000;
-    max-width: 100%;
-    height: 1400px;
+.sectionBike {
+  background-color: #000000;
+  max-width: 100%;
+  height: 1400px;
 }
 
 #titleBikes {
-    color: #ffffff;
-    text-align: center;
-    font-weight: bold;
-    font-size: 2.5em;
-    padding-top: 100px;
-    margin-bottom: 100px;
+  color: #ffffff;
+  text-align: center;
+  font-weight: bold;
+  font-size: 2.5em;
+  padding-top: 100px;
+  margin-bottom: 100px;
 }
 
 .descriptionBikes {
-    background-color: #3a3838;
-    width: 25%;
-    text-align: center;
-    box-sizing: border-box;
-    border-radius: 5px;
+  background-color: #3a3838;
+  width: 25%;
+  text-align: center;
+  box-sizing: border-box;
+  border-radius: 5px;
 
-    margin-left: 15%;
-    margin-bottom: 100px;
+  margin-left: 15%;
+  margin-bottom: 100px;
 
-    float: left;
-    
-    position: relative;
-    right: 10%;
-    
-    transform: translate(50%, 0%);
+  float: left;
+
+  position: relative;
+  right: 10%;
+
+  transform: translate(50%, 0%);
 }
 
 .clearBikes {
-    clear: both;
+  clear: both;
 }
 
-
 .titleDescriptionBike {
-    text-align: left;
-    color:white;
-    margin-bottom: 25px;
-    margin-left: 5px;
-    font-size: 1.3em;
-    font-weight: 300;
+  text-align: left;
+  color: white;
+  margin-bottom: 25px;
+  margin-left: 5px;
+  font-size: 1.3em;
+  font-weight: 300;
 }
 
 .descriptionBuyBike {
-    text-align: left;
-    color: white;
-    box-sizing: border-box;
+  text-align: left;
+  color: white;
+  box-sizing: border-box;
 }
 
 .precoBike {
-    color: #ffffffa4;
-    font-size: 1.6em;
-    font-weight: 500;
-    text-indent: 3px;    
+  color: #ffffffa4;
+  font-size: 1.6em;
+  font-weight: 500;
+  text-indent: 3px;
 }
 
 .parcelamentoBike {
-    color: #ffffffa4;
-    font-size: 1.1em;
-    font-weight: 500;
-    text-indent: 3px;
+  color: #ffffffa4;
+  font-size: 1.1em;
+  font-weight: 500;
+  text-indent: 3px;
 }
 
 .buyBike {
-    text-align: center;
-    display: block;
+  text-align: center;
+  display: block;
 
-    color: #0f0c0c;
-    background-color: #008000;
+  color: #0f0c0c;
+  background-color: #008000;
 
-    font-weight: bold;
-    text-decoration: none;
-    
-    margin-top: 25px;
-    padding: 10px;
-    width: 50%;
-    border-radius: 5px;
+  font-weight: bold;
+  text-decoration: none;
+
+  margin-top: 25px;
+  padding: 10px;
+  width: 50%;
+  border-radius: 5px;
 }
 
 .buyBike:hover {
-    background-color: #04d404;
-    color: #1b1919;
+  background-color: #04d404;
+  color: #1b1919;
 }
 
-
-/* Sessão Motos */ 
+/* Sessão Motos */
 .sectionMotos {
-    max-width: 100%;
-    height: 2010px;
-    background-color: #000000;
+  max-width: 100%;
+  height: 2080px;
+  background-color: #000000;
 }
 
 #titleMotos {
-    color: #ffffff;
-    text-align: center;
-    font-weight: bold;
-    font-size: 2.5em;
-    padding-top: 100px;
-    margin-bottom: 100px;
+  color: #ffffff;
+  text-align: center;
+  font-weight: bold;
+  font-size: 2.5em;
+  padding-top: 100px;
+  margin-bottom: 100px;
 }
 
 .descriptionMotos {
-    background-color: #3a3838;
-    width: 25%;
-    text-align: center;
-    box-sizing: border-box;
-    border-radius: 5px;
+  background-color: #3a3838;
+  width: 25%;
+  text-align: center;
+  box-sizing: border-box;
+  border-radius: 5px;
 
-    margin-left: 15%;
-    margin-bottom: 100px;
+  margin-left: 15%;
+  margin-bottom: 100px;
 
-    float: left;
-    
-    position: relative;
-    right: 10%;
-    
-    transform: translate(50%, 0%);
+  float: left;
 
+  position: relative;
+  right: 10%;
+
+  transform: translate(50%, 0%);
 }
 
 .clearMotos {
-    clear: both;
+  clear: both;
 }
 
 .titleDescriptionMotos {
-    text-align: left;
-    color:white;
-    margin-bottom: 25px;
-    margin-left: 5px;
-    font-size: 1.3em;
-    font-weight: 300;
+  text-align: left;
+  color: white;
+  margin-bottom: 25px;
+  margin-left: 5px;
+  font-size: 1.3em;
+  font-weight: 300;
 }
 
 .descriptionBuyMotos {
-    text-align: left;
-    color: white;
-    box-sizing: border-box;
+  text-align: left;
+  color: white;
+  box-sizing: border-box;
 }
 
 .precoMoto {
-    color: #ffffffa4;
-    font-size: 1.6em;
-    font-weight: 500;
-    text-indent: 3px;    
+  color: #ffffffa4;
+  font-size: 1.6em;
+  font-weight: 500;
+  text-indent: 3px;
 }
 
 .parcelamentoMoto {
-    color: #ffffffa4;
-    font-size: 1.1em;
-    font-weight: 500;
-    text-indent: 3px;
+  color: #ffffffa4;
+  font-size: 1.1em;
+  font-weight: 500;
+  text-indent: 3px;
 }
 
 .buyMoto {
-    text-align: center;
-    display: block;
+  text-align: center;
+  display: block;
 
-    color: #0f0c0c;
-    background-color: #008000;
+  color: #0f0c0c;
+  background-color: #008000;
 
-    font-weight: bold;
-    text-decoration: none;
-    
-    margin-top: 25px;
-    padding: 10px;
-    width: 50%;
-    border-radius: 5px;
+  font-weight: bold;
+  text-decoration: none;
+
+  margin-top: 25px;
+  padding: 10px;
+  width: 50%;
+  border-radius: 5px;
 }
 
 .buyMoto:hover {
-    background-color: #04d404;
-    color: #1b1919;
+  background-color: #04d404;
+  color: #1b1919;
 }
 
 /* Modificações com Media Queire */
 
-@media screen and (max-width: 1000px) {
-    
-    /* MODIFICAÇÕES DA SESSÃO BIKES */
-
-    .sectionBike { 
-        background-color: #000000;
-        max-width: 100%;
-        height: 2400px;
-    }
-
-    .descriptionBikes {
-        width: 35%;
-        margin-left: 0%;
-
-        float: none;
-
-        position: relative;
-        top: 0%;
-        left: 50%;
-    
-        transform: translate(-50%, 0%);
-    }
-
-    .clearBikes {
-        clear: none;
-    }
-
-
-    /* MODIFICAÇÕES DA SESSÃO MOTOS */
-
-    .sectionMotos { 
-        background-color: #000000;
-        max-width: 100%;
-        height: 3530px;
-    }
-
-    .descriptionMotos {
-        width: 35%;
-        margin-left: 0%;
-
-        float: none;
-
-        position: relative;
-        top: 0%;
-        left: 50%;
-    
-        transform: translate(-50%, 0%);
-    }
-
-    .clearMotos {
-        clear: none;
-    }
-
+@media screen and (max-width: 1300px) {
+  /* Sessão Motos */
+  .sectionMotos {
+    max-width: 100%;
+    height: 1900px;
+    background-color: #000000;
+  }
 }
 
-@media screen and (max-width: 768px) {
-    /* MODIFICAÇÕES DA SESSÃO BIKES */
-    .descriptionBikes {
-        width: 45%;
-        margin-left: 0%;
+@media screen and (max-width: 1100px) {
+    /* Sessão Motos */
+    .sectionMotos {
+      max-width: 100%;
+      height: 1800px;
+      background-color: #000000;
+    }
+  }
 
-        float: none;
-        
-        position: relative;
-        top: 0%;
-        left: 50%;
-    
-        transform: translate(-50%, 0%);
+@media screen and (max-width: 1000px) {
+  /* MODIFICAÇÕES DA SESSÃO BIKES */
+
+  .sectionBike {
+    background-color: #000000;
+    max-width: 100%;
+    height: 2400px;
+  }
+
+  .descriptionBikes {
+    width: 35%;
+    margin-left: 0%;
+
+    float: none;
+
+    position: relative;
+    top: 0%;
+    left: 50%;
+
+    transform: translate(-50%, 0%);
+  }
+
+  .clearBikes {
+    clear: none;
+  }
+
+  /* MODIFICAÇÕES DA SESSÃO MOTOS */
+
+  .sectionMotos {
+    background-color: #000000;
+    max-width: 100%;
+    height: 3630px;
+  }
+
+  .descriptionMotos {
+    width: 35%;
+    margin-left: 0%;
+
+    float: none;
+
+    position: relative;
+    top: 0%;
+    left: 50%;
+
+    transform: translate(-50%, 0%);
+  }
+
+  .clearMotos {
+    clear: none;
+  }
+}
+
+@media screen and (max-width: 850px) {
+    /* Sessão Motos */
+    .sectionMotos {
+      max-width: 100%;
+      height: 3500px;
+      background-color: #000000;
     }
 
-    .clearBikes {
-        clear: none;
-    }
-
-
-    /* MODIFICAÇÕES DA SESSÃO MOTOS */
     .descriptionMotos {
-        width: 45%;
+        width: 39%;
         margin-left: 0%;
 
-        float: none;
-        
+    
         position: relative;
         top: 0%;
         left: 50%;
     
         transform: translate(-50%, 0%);
-    }
+      }
+    
 
-    .clearMotos {
-        clear: none;
-    }
+  }
+
+@media screen and (max-width: 768px) {
+  /* MODIFICAÇÕES DA SESSÃO BIKES */
+  .descriptionBikes {
+    width: 45%;
+    margin-left: 0%;
+
+    float: none;
+
+    position: relative;
+    top: 0%;
+    left: 50%;
+
+    transform: translate(-50%, 0%);
+  }
+
+  .clearBikes {
+    clear: none;
+  }
+
+  /* MODIFICAÇÕES DA SESSÃO MOTOS */
+
+  .sectionMotos {
+    max-width: 100%;
+    height: 3580px;
+    background-color: #000000;
+  }
 
 
+  .descriptionMotos {
+    width: 45%;
+    margin-left: 0%;
+
+    float: none;
+
+    position: relative;
+    top: 0%;
+    left: 50%;
+
+    transform: translate(-50%, 0%);
+  }
+
+  .clearMotos {
+    clear: none;
+  }
 }
 
 @media screen and (max-width: 500px) {
-    /* MODIFICAÇÕES DO FORMULÁRIO */
+  /* MODIFICAÇÕES DO FORMULÁRIO */
 
-    .formContainer {
-        padding: 0px;
-    }
+  .formContainer {
+    padding: 0px;
+  }
 
-    .formContent {
-        background-color: #aca8a8a9;
-        border-radius: 0px;
-        max-width: 100%;
-        height: 480px;
-        padding: 20px;
-        float: none;
-        box-sizing: border-box;
-    }
-    
-    .title_form {
-        font-size: 22.9px;
-    }
-    
-    .text_form {
-        text-align: justify;
-        font-size: 17px;
-    }
-    
-    .margin {
-        margin-bottom: 25px;
-    }
+  .formContent {
+    background-color: #aca8a8a9;
+    border-radius: 0px;
+    max-width: 100%;
+    height: 480px;
+    padding: 20px;
+    float: none;
+    box-sizing: border-box;
+  }
 
-    input[type="submit"] {
-        background-color: #302b2b;
-        font-weight: bold;
-        border-radius: 5px;
-        color: #ffffff;
-        cursor: pointer;
-        width: 50%;
-    }
+  .title_form {
+    font-size: 22.9px;
+  }
 
-    /* MODIFICAÇÕES DA SESSÃO BIKES */
+  .text_form {
+    text-align: justify;
+    font-size: 17px;
+  }
 
-    .sectionBike { 
-        background-color: #000000;
-        max-width: 100%;
-        height: 2300px;
-    }
+  .margin {
+    margin-bottom: 25px;
+  }
 
-    .descriptionBikes {
-        width: 55%;
-        margin-left: 0%;
+  input[type="submit"] {
+    background-color: #302b2b;
+    font-weight: bold;
+    border-radius: 5px;
+    color: #ffffff;
+    cursor: pointer;
+    width: 50%;
+  }
 
-        float: none;
-        
-        position: relative;
-        top: 0%;
-        left: 50%;
-    
-        transform: translate(-50%, 0%);
-    }
+  /* MODIFICAÇÕES DA SESSÃO BIKES */
 
-    .clearBikes {
-        clear: none;
-    }
+  .sectionBike {
+    background-color: #000000;
+    max-width: 100%;
+    height: 2300px;
+  }
 
+  .descriptionBikes {
+    width: 55%;
+    margin-left: 0%;
 
-    /* MODIFICAÇÕES DA SESSÃO MOTOS */
+    float: none;
 
-    .sectionMotos { 
-        background-color: #000000;
-        max-width: 100%;
-        height: 3100px;
-    }
+    position: relative;
+    top: 0%;
+    left: 50%;
 
-    .descriptionMotos {
-        width: 55%;
-        margin-left: 0%;
+    transform: translate(-50%, 0%);
+  }
 
-        float: none;
-        
-        position: relative;
-        top: 0%;
-        left: 50%;
-    
-        transform: translate(-50%, 0%);
-    }
+  .clearBikes {
+    clear: none;
+  }
 
-    .clearMotos {
-        clear: none;
-    }
+  /* MODIFICAÇÕES DA SESSÃO MOTOS */
 
+  .sectionMotos {
+    background-color: #000000;
+    max-width: 100%;
+    height: 3300px;
+  }
+
+  .descriptionMotos {
+    width: 60%;
+    margin-left: 0%;
+
+    float: none;
+
+    position: relative;
+    top: 0%;
+    left: 50%;
+
+    transform: translate(-50%, 0%);
+  }
+
+  .clearMotos {
+    clear: none;
+  }
 }
 
 @media screen and (max-width: 450px) {
+  /* NAVEGAÇÃO */
+  nav {
+    background-color: #3f3e3b;
+    overflow: hidden;
+    padding: 0px;
+    max-width: 100%;
+  }
 
-    /* NAVEGAÇÃO */
-    nav {
-        background-color: #3f3e3b;
-        overflow: hidden;
-        padding: 0px;
-        max-width: 100%;
-    }
-    
-    li {
-        font-weight: 600;
-        float: none;
-        list-style: none;
-        text-align: center;
-        padding: 0px;
-    }
-    
-    .links_nav {
-        display: block;
-        text-decoration: none;
-        color: #ffffff;
-        padding: 15px;
-        margin-right: 0px;
-        width: 100%;
-        border: 1.4px solid black;
-    }
-    
-    .links_nav:hover {
-        background-color: #1d1d1c;
-        border-radius: 0px;
-    }
+  li {
+    font-weight: 600;
+    float: none;
+    list-style: none;
+    text-align: center;
+    padding: 0px;
+  }
 
+  .links_nav {
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 15px;
+    margin-right: 0px;
+    width: 100%;
+    border: 1.4px solid black;
+  }
 
-    /* MODIFICAÇÕES DA SESSÃO BIKES */
+  .links_nav:hover {
+    background-color: #1d1d1c;
+    border-radius: 0px;
+  }
 
-    .sectionBike { 
-        background-color: #000000;
-        max-width: 100%;
-        height: 2200px;
-    }
+  /* MODIFICAÇÕES DA SESSÃO BIKES */
 
+  .sectionBike {
+    background-color: #000000;
+    max-width: 100%;
+    height: 2200px;
+  }
 
-     /* MODIFICAÇÕES DA SESSÃO MOTOS */
+  /* MODIFICAÇÕES DA SESSÃO MOTOS */
 
-     .sectionMotos { 
-        background-color: #000000;
-        max-width: 100%;
-        height: 2900px;
-    }
+  .sectionMotos {
+    background-color: #000000;
+    max-width: 100%;
+    height: 3280px;
+  }
 
+  .descriptionMotos {
+    width: 70%;
+  }
 
 }
 
 @media screen and (max-width: 400px) {
-    /* MODIFICAÇÕES DO CABEÇALHO E NAVEGAÇÃO DO SITE */
+  /* MODIFICAÇÕES DO CABEÇALHO E NAVEGAÇÃO DO SITE */
 
-    #title {
-        text-align: center;
-        margin-bottom: 20px;
-        font-size: 2.6em;
-        font-family: 'Monoton', arial, sans-serif, cursive;
-    }
-    
-    #paragrafo_title {
-        text-align: center;
-        font-weight: bold;
-        font-size: 1em;
-        font-family: 'Carter One', arial, sans-serif, cursive;
-    }
-    
+  #title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2.6em;
+    font-family: "Monoton", arial, sans-serif, cursive;
+  }
 
-    /* MODIFICAÇÕES DA SESSÃO BIKES */
+  #paragrafo_title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1em;
+    font-family: "Carter One", arial, sans-serif, cursive;
+  }
 
-    .sectionBike { 
-        background-color: #000000;
-        max-width: 100%;
-        height: 2150px;
-    }
+  /* MODIFICAÇÕES DA SESSÃO BIKES */
 
-    /* MODIFICAÇÕES DA SESSÃO MOTOS */
+  .sectionBike {
+    background-color: #000000;
+    max-width: 100%;
+    height: 2150px;
+  }
 
-    .sectionMotos { 
-        background-color: #000000;
-        max-width: 100%;
-        height: 2740px;
-    }
+  /* MODIFICAÇÕES DA SESSÃO MOTOS */
+
+  .sectionMotos {
+    background-color: #000000;
+    max-width: 100%;
+    height: 3100px;
+  }
+
+  .descriptionMotos {
+    width: 70%;
+  }
 
 }
