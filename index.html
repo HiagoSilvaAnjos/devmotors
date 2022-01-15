@@ -1,240 +1,289 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/style.css">
-    <link rel="shortcut icon" href="./images/favicon/Meuicone.ico" type="image/x-icon">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/style.css" />
     <link
-        href="https://fonts.googleapis.com/css2?family=Carter+One&family=Fugaz+One&family=Monoton&family=Permanent+Marker&display=swap"
-        rel="stylesheet">
+      rel="shortcut icon"
+      href="./images/favicon/Meuicone.ico"
+      type="image/x-icon"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Carter+One&family=Fugaz+One&family=Monoton&family=Permanent+Marker&display=swap"
+      rel="stylesheet"
+    />
 
     <title>Devmotors</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header>
-        <h1 id="title">DevMotors</h1>
-        <p id="paragrafo_title">
-            Aqui você vai encontrar os mais variados tipos de veículos
-        </p>
+      <h1 id="title">DevMotors</h1>
+      <p id="paragrafo_title">
+        Aqui você vai encontrar os mais variados tipos de veículos
+      </p>
     </header>
     <nav>
-        <ul>
-            <li>
-                <a class="links_nav" href="#form">Cadastre-se</a>
-            </li>
-            <li>
-                <a class="links_nav" href="#Bikes">Bicicletas</a>
-            </li>
-            <li>
-                <a class="links_nav" href="">Motos</a>
-            </li>
-            <li>
-                <a class="links_nav" href="">Carros</a>
-            </li>
-        </ul>
+      <ul>
+        <li>
+          <a class="links_nav" href="#form">Cadastre-se</a>
+        </li>
+        <li>
+          <a class="links_nav" href="#Bikes">Bicicletas</a>
+        </li>
+        <li>
+          <a class="links_nav" href="#Motos">Motos</a>
+        </li>
+        <li>
+          <a class="links_nav" href="#Carros">Carros</a>
+        </li>
+      </ul>
     </nav>
     <section class="formContainer">
-        <div class="formContent" id="form">
-            <h2 class="margin title_form">
-                Cadastre-se aqui para receber as melhores ofertas para comprar o seu veículo
-            </h2>
-            <p class="margin text_form">
-                Cadastrando o seu email aqui, você irá receber antes de todo mundo, simplismente, os mais
-                recheados descontos para você comprar o seu veículo dos sonhos.
-            </p>
-            <form action="" method="get" validate>
-                <input type="text" name="FNAME" id="name" placeholder="Digite seu nome">
-                <input type="email" name="EMAIL" id="email" placeholder="Digite seu email">
-                <select name="PLACE">
-                    <option value="pa">
-                        Pará
-                    </option>
-                    <option value="rj">
-                        Rio de Janeiro
-                    </option>
-                    <option value="mg">
-                        Minas Gerais
-                    </option>
-                    <option value="sp">
-                        São Paulo
-                    </option>
-                    <option value="outro">
-                        Outro
-                    </option>
-                </select>
-                <input type="submit" value="CADASTRE-SE">
-            </form>
-        </div>
+      <div class="formContent" id="form">
+        <h2 class="margin title_form">
+          Cadastre-se aqui para receber as melhores ofertas para comprar o seu
+          veículo
+        </h2>
+        <p class="margin text_form">
+          Cadastrando o seu email aqui, você irá receber antes de todo mundo,
+          simplismente, os mais recheados descontos para você comprar o seu
+          veículo dos sonhos.
+        </p>
+        <form action="" method="get" validate>
+          <input
+            type="text"
+            name="FNAME"
+            id="name"
+            placeholder="Digite seu nome"
+          />
+          <input
+            type="email"
+            name="EMAIL"
+            id="email"
+            placeholder="Digite seu email"
+          />
+          <select name="PLACE">
+            <option value="pa">Pará</option>
+            <option value="rj">Rio de Janeiro</option>
+            <option value="mg">Minas Gerais</option>
+            <option value="sp">São Paulo</option>
+            <option value="outro">Outro</option>
+          </select>
+          <input type="submit" value="CADASTRE-SE" />
+        </form>
+      </div>
     </section>
 
-    <!-- Sessão bikes -->
-
-    <section class="sectionBike" id="Bikes">
+    <main>
+      <!-- Sessão bikes -->
+      <section class="sectionBike" id="Bikes">
         <h2 id="titleBikes">BICICLETAS</h2>
         <div class="descriptionBikes">
-            <img src="./images/bikes/bike_basic.jpg" alt="">
-            <div class="descriptionBuyBike">
-                <h2 class="titleDescriptionBike">
-                    Bicicleta Aro 26 Barra Forte Circular
-                    Ultra Bikes Stronger - Preto
-                </h2>
-                <p class="precoBike">
-                    R$878,99
-                </p>
-                <p class="parcelamentoBike">
-                    <del>R$1390,00 </del>
-                    <br>
-                    12X R$ 73,24 sem juros
-                </p>
-                <a class="buyBike" href="#">COMPRAR</a>
-            </div>
+          <img src="./images/bikes/bike_basic.jpg" alt="" />
+          <div class="descriptionBuyBike">
+            <h2 class="titleDescriptionBike">
+              Bicicleta Aro 26 Barra Forte Circular Ultra Bikes Stronger - Preto
+            </h2>
+            <p class="precoBike">R$ 878,99</p>
+            <p class="parcelamentoBike">
+              <del>R$ 1390,00 </del>
+              <br />
+              12X R$ 73,24 sem juros
+            </p>
+            <a class="buyBike" href="#">COMPRAR</a>
+          </div>
         </div>
         <div class="descriptionBikes">
-            <img src="./images/bikes/bike_black-green.jpg" alt="">
-            <div class="descriptionBuyBike">
-                <h2 class="titleDescriptionBike">
-                    Bicicleta Aço Carbono Ksvj Aro 29
-                    Freios A Disco 21 Vel
-                </h2>
-                <p class="precoBike">
-                    R$799,99
-                </p>
-                <p class="parcelamentoBike">
-                    <del>R$1200,00</del>
-                    <br>
-                    12X R$ 66,66 sem juros
-                </p>
-                <a class="buyBike" href="#">COMPRAR</a>
-            </div>
-        </div>
+          <img src="./images/bikes/bike_black-green.jpg" alt="" />
+          <div class="descriptionBuyBike">
+            <h2 class="titleDescriptionBike">
+              Bicicleta Aço Carbono Ksvj Aro 29 Freios A Disco 21 Vel
+            </h2>
+            <p class="precoBike">R$ 799,99</p>
+            <p class="parcelamentoBike">
+              <del>R$ 1200,00</del>
+              <br />
+              12X R$ 66,66 sem juros
+            </p>
+            <a class="buyBike" href="#">COMPRAR</a>
+          </div>
         </div>
         <div class="descriptionBikes clearBikes">
-            <img src="./images/bikes/bike_black-white.jpg" alt="">
-            <div class="descriptionBuyBike">
-                <h2 class="titleDescriptionBike">
-                    Bicicleta Alumínio 29 Ksvj Freio
-                    Disco Mec 24 Velocidades
-                </h2>
-                <p class="precoBike">
-                    R$899,99
-                </p>
-                <p class="parcelamentoBike">
-                    <del>R$1499,99</del>
-                    <br>
-                    12X R$124,99 sem juros
-                </p>
-                <a class="buyBike" href="#">COMPRAR</a>
-            </div>
+          <img src="./images/bikes/bike_black-white.jpg" alt="" />
+          <div class="descriptionBuyBike">
+            <h2 class="titleDescriptionBike">
+              Bicicleta Alumínio 29 Ksvj Freio Disco Mec 24 Velocidades
+            </h2>
+            <p class="precoBike">R$ 899,99</p>
+            <p class="parcelamentoBike">
+              <del>R$ 1499,99</del>
+              <br />
+              12X R$ 124,99 sem juros
+            </p>
+            <a class="buyBike" href="#">COMPRAR</a>
+          </div>
         </div>
         <div class="descriptionBikes">
-            <img src="./images/bikes/bike_black.jpg" alt="">
-            <div class="descriptionBuyBike">
-                <h2 class="titleDescriptionBike">
-                    Bicicleta Alumínio 29 Ksvj Freio
-                    Disco Hidráulico 24 Vel
-                </h2>
-                <p class="precoBike">
-                    R$999,99
-                </p>
-                <p class="parcelamentoBike">
-                    <del>R$1799,99</del>
-                    <br>
-                    12X R$124,99 sem juros
-                </p>
-                <a class="buyBike" href="#">COMPRAR</a>
-            </div>
+          <img src="./images/bikes/bike_black.jpg" alt="" />
+          <div class="descriptionBuyBike">
+            <h2 class="titleDescriptionBike">
+              Bicicleta Alumínio 29 Ksvj Freio Disco Hidráulico 24 Vel
+            </h2>
+            <p class="precoBike">R$ 999,99</p>
+            <p class="parcelamentoBike">
+              <del>R$ 1799,99</del>
+              <br />
+              12X R$ 124,99 sem juros
+            </p>
+            <a class="buyBike" href="#">COMPRAR</a>
+          </div>
         </div>
-    </section>
-
-    <!-- Sessão Motos -->
-
-    <section class="sectionMotos">
+      </section>
+      <!-- Sessão Motos -->
+      <section class="sectionMotos" id="Motos">
         <h2 id="titleMotos">MOTOS</h2>
         <div class="descriptionMotos">
-            <img src="./images/motorcycle/motorcycle_blue-white.jpg" alt="">
-            <div class="descriptionBuyMotos">
-                <h2 class="titleDescriptionMotos">
-                    R1 MONSTER XLY
-                </h2>
-                <p class="precoMoto">
-                    R$29.490,00*
-                </p>
-                <p class="parcelamentoMoto">
-                    <del>R$33.678,00</del>
-                    <br>
-                    Até 24X R$1.228,75 com juros
-                    <br>
-                    Até 5X R$5.898,00 sem juros
-                </p>
-                <a class="buyMoto" href="#">COMPRAR</a>
-            </div>
+          <img src="./images/motorcycle/motorcycle_blue-white.jpg" alt="" />
+          <div class="descriptionBuyMotos">
+            <h2 class="titleDescriptionMotos">R1 MONSTER XLY</h2>
+            <p class="precoMoto">R$ 29.490,00*</p>
+            <p class="parcelamentoMoto">
+              <del>R$ 33.678,00</del>
+              <br />
+              Até 24X R$ 1.228,75 com juros
+              <br />
+              Até 5X R$ 5.898,00 sem juros
+            </p>
+            <a class="buyMoto" href="#">COMPRAR</a>
+          </div>
         </div>
-
         <div class="descriptionMotos">
-            <img src="./images/motorcycle/motorcycle_black-white.jpg" alt="">
-            <div class="descriptionBuyMotos">
-                <h2 class="titleDescriptionMotos">
-                    VWZ-STROG 650 ABS - COLOR BLACK AND WHITE
-                </h2>
-                <p class="precoMoto">
-                    R$26.980,00*
-                </p>
-                <p class="parcelamentoMoto">
-                    <del>R$29.990,00*</del>
-                    <br>
-                    Até 24X R$1.124,16 com juros
-                    <br>
-                    Até 5X R$5.396 sem juros
-                </p>
-                <a class="buyMoto" href="#">COMPRAR</a>
-            </div>
+          <img src="./images/motorcycle/motorcycle_black-white.jpg" alt="" />
+          <div class="descriptionBuyMotos">
+            <h2 class="titleDescriptionMotos">
+              VWZ-STROG 650 ABS - COLOR BLACK AND WHITE
+            </h2>
+            <p class="precoMoto">R$ 26.980,00*</p>
+            <p class="parcelamentoMoto">
+              <del>R$ 29.990,00*</del>
+              <br />
+              Até 24X R$ 1.124,16 com juros
+              <br />
+              Até 5X R$ 5.396 sem juros
+            </p>
+            <a class="buyMoto" href="#">COMPRAR</a>
+          </div>
         </div>
-
         <div class="descriptionMotos clearMotos">
-            <img src="./images/motorcycle/motorcycle_white.jpg" alt="">
-            <div class="descriptionBuyMotos">
-                <h2 class="titleDescriptionMotos">
-                    GTX-MX250ZA - COLOR BLACKAND WHITE
-                </h2>
-                <p class="precoMoto">
-                    R$57.950,00*
-                </p>
-                <p class="parcelamentoMoto">
-                    <del>R$64.378,00</del>
-                    <br>
-                    Até 24X R$2.414,58 com juros
-                    <br>
-                    Até 5X R$11.590,00 sem juros
-                </p>
-                <a class="buyMoto" href="#">COMPRAR</a>
-            </div>
+          <img src="./images/motorcycle/motorcycle_white.jpg" alt="" />
+          <div class="descriptionBuyMotos">
+            <h2 class="titleDescriptionMotos">
+              GTX-MX250ZA - COLOR BLACKAND WHITE
+            </h2>
+            <p class="precoMoto">R$ 57.950,00*</p>
+            <p class="parcelamentoMoto">
+              <del>R$ 64.378,00</del>
+              <br />
+              Até 24X R$ 2.414,58 com juros
+              <br />
+              Até 5X R$ 11.590,00 sem juros
+            </p>
+            <a class="buyMoto" href="#">COMPRAR</a>
+          </div>
         </div>
-
         <div class="descriptionMotos">
-            <img src="./images/motorcycle/motorcycle_black.jpg" alt="">
-            <div class="descriptionBuyMotos">
-                <h2 class="titleDescriptionMotos">
-                    VWZ-STROG-P1 1050 - COLOR BLACK
-                </h2>
-                <p class="precoMoto">
-                    R$15.900,00*
-                </p>
-                <p class="parcelamentoMoto">
-                    <del>R$19.650,00</del>
-                    <br>
-                    Até 12X R$1.637,50 com juros
-                    <br>
-                    Até 3X R$6.550,00 sem juros
-                </p>
-                <a class="buyMoto" href="#">COMPRAR</a>
-            </div>
+          <img src="./images/motorcycle/motorcycle_black.jpg" alt="" />
+          <div class="descriptionBuyMotos">
+            <h2 class="titleDescriptionMotos">
+              VWZ-STROG-P1 1050 - COLOR BLACK
+            </h2>
+            <p class="precoMoto">R$ 15.900,00*</p>
+            <p class="parcelamentoMoto">
+              <del>R$ 19.650,00</del>
+              <br />
+              Até 12X R$ 1.637,50 com juros
+              <br />
+              Até 3X R$ 6.550,00 sem juros
+            </p>
+            <a class="buyMoto" href="#">COMPRAR</a>
+          </div>
         </div>
-
-    </section>
-</body>
-
+      </section>
+      <!-- Sessão Carros -->
+      <section class="sectionCarros" id="Carros">
+        <h2 id="titleCarros">CARROS</h2>
+        <div class="descriptionCarros">
+          <img src="images/car/car_black.jpg" alt="" />
+          <div class="descriptionBuyCarros">
+            <h2 class="titleDescriptionCarros">
+              PORSCHE 718 2.0 16V H4 GASOLINA CAYMAN PDK
+            </h2>
+            <p class="precoCarro">R$ 519.890*</p>
+            <p class="parcelamentoCarro">
+              <del>R$ 719.890</del>
+              <br />
+              Até 14X R$ 37.135,000 com juros
+              <br />
+              Até 5X R$ 103.978 sem juros
+            </p>
+            <a class="buyCarro" href="#">COMPRAR</a>
+          </div>
+        </div>
+        <div class="descriptionCarros">
+          <img src="./images/car/car_red.jpg" alt="" />
+          <div class="descriptionBuyCarros">
+            <h2 class="titleDescriptionCarros">
+              FERRARI 488 GTB 3.9 V8 TURBO GASOLINA F1-DCT
+            </h2>
+            <p class="precoCarro">R$ 2.980.000*</p>
+            <p class="parcelamentoCarro">
+              <del>R$ 3.680.000</del>
+              <br />
+              Até 24X R$ 124.166,066 com juros
+              <br />
+              Até 8X R$ 372.500,000 sem juros
+            </p>
+            <a class="buyCarro" href="#">COMPRAR</a>
+          </div>
+        </div>
+        <div class="descriptionCarros clearCarros">
+          <img src="./images/car/car_blue.jpg" alt="" />
+          <div class="descriptionBuyCarros">
+            <h2 class="titleDescriptionCarros">
+              PORSCHE 911 3.8 24V H6 GASOLINA TURBO PDK
+            </h2>
+            <p class="precoCarro">R$ 2.050.000*</p>
+            <p class="parcelamentoCarro">
+              <del>R$ 2.850.000</del>
+              <br />
+              Até 24X R$ 85.416,066 com juros
+              <br />
+              Até 8X R$ 256.250,000 sem juros
+            </p>
+            <a class="buyCarro" href="#">COMPRAR</a>
+          </div>
+        </div>
+        <div class="descriptionCarros">
+          <img src="./images/car/car_yellow.jpg" alt="" />
+          <div class="descriptionBuyCarros">
+            <h2 class="titleDescriptionCarros">
+              PORSCHE 911 3.0 24V H6 GASOLINA CARRERA S PDK
+            </h2>
+            <p class="precoMoto">R$ 1.249.900*</p>
+            <p class="parcelamentoCarro">
+              <del>R$ 1.799.900</del>
+              <br />
+              Até 14X R$ 89.214,285 com juros
+              <br />
+              Até 4X R$ 312.250,000 sem juros
+            </p>
+            <a class="buyCarro" href="#">COMPRAR</a>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>

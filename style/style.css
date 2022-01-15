@@ -12,7 +12,6 @@ body {
 /* CABEÇALHO */
 header {
   padding: 40px;
-  color: white;
   background-color: #f5c907;
   color: #000000;
   max-width: 100%;
@@ -21,7 +20,7 @@ header {
 #title {
   text-align: center;
   margin-bottom: 20px;
-  font-size: 3em;
+  font-size: 4em;
   font-family: "Monoton", arial, sans-serif, cursive;
 }
 
@@ -306,6 +305,95 @@ img {
   color: #1b1919;
 }
 
+/* Sessão Carros */
+.sectionCarros {
+  max-width: 100%;
+  height: 1750px;
+  background-color: #000000;
+}
+
+#titleCarros {
+  color: #ffffff;
+  text-align: center;
+  font-weight: bold;
+  font-size: 2.5em;
+  padding-top: 100px;
+  margin-bottom: 100px;
+}
+
+.descriptionCarros{
+  background-color: #3a3838;
+  width: 25%;
+  text-align: center;
+  box-sizing: border-box;
+  border-radius: 5px;
+
+  margin-left: 15%;
+  margin-bottom: 100px;
+
+  float: left;
+
+  position: relative;
+  right: 10%;
+
+  transform: translate(50%, 0%);
+}
+
+.clearCarros {
+  clear: both;
+}
+
+.titleDescriptionCarros {
+  text-align: left;
+  color: white;
+  margin-bottom: 25px;
+  margin-left: 5px;
+  font-size: 1.3em;
+  font-weight: 300;
+}
+
+.descriptionBuyCarros {
+  text-align: left;
+  color: white;
+  box-sizing: border-box;
+}
+
+.precoCarro {
+  color: #ffffffa4;
+  font-size: 1.6em;
+  font-weight: 500;
+  text-indent: 3px;
+}
+
+.parcelamentoCarro {
+  color: #ffffffa4;
+  font-size: 1.1em;
+  font-weight: 500;
+  text-indent: 3px;
+}
+
+.buyCarro {
+  text-align: center;
+  display: block;
+
+  color: #0f0c0c;
+  background-color: #008000;
+
+  font-weight: bold;
+  text-decoration: none;
+
+  margin-top: 25px;
+  padding: 10px;
+  width: 50%;
+  border-radius: 5px;
+}
+
+.buyCarro:hover {
+  background-color: #04d404;
+  color: #1b1919;
+}
+
+
 /* Modificações com Media Queire */
 
 @media screen and (max-width: 1300px) {
@@ -315,6 +403,14 @@ img {
     height: 1900px;
     background-color: #000000;
   }
+
+   /* Sessão Carros */
+   .sectionCarros {
+    max-width: 100%;
+    height: 1600px;
+    background-color: #000000;
+  }
+
 }
 
 @media screen and (max-width: 1100px) {
@@ -324,7 +420,14 @@ img {
       height: 1800px;
       background-color: #000000;
     }
-  }
+
+    /* Sessão Carros */
+    .sectionCarros {
+      max-width: 100%;
+      height: 1500px;
+      background-color: #000000;
+    }
+}
 
 @media screen and (max-width: 1000px) {
   /* MODIFICAÇÕES DA SESSÃO BIKES */
@@ -376,6 +479,32 @@ img {
   .clearMotos {
     clear: none;
   }
+
+  /* MODIFICAÇÕES DA SESSÃO CARROS */
+
+  .sectionCarros {
+    background-color: #000000;
+    max-width: 100%;
+    height: 3000px;
+  }
+
+  .descriptionCarros {
+    width: 35%;
+    margin-left: 0%;
+
+    float: none;
+
+    position: relative;
+    top: 0%;
+    left: 50%;
+
+    transform: translate(-50%, 0%);
+  }
+
+  .clearCarros {
+    clear: none;
+  }
+
 }
 
 @media screen and (max-width: 850px) {
@@ -399,9 +528,34 @@ img {
       }
     
 
-  }
+      /* Sessão Carros */
+    .sectionCarros {
+      max-width: 100%;
+      height: 2850px;
+      background-color: #000000;
+    }
+
+    .descriptionCarros {
+        width: 39%;
+        margin-left: 0%;
+
+    
+        position: relative;
+        top: 0%;
+        left: 50%;
+    
+        transform: translate(-50%, 0%);
+      }
+
+}
 
 @media screen and (max-width: 768px) {
+  /* MODIFICAÇÃO DO TÍTULO DO SITE */
+  #title {
+    font-size: 3em;
+  }
+
+
   /* MODIFICAÇÕES DA SESSÃO BIKES */
   .descriptionBikes {
     width: 45%;
@@ -445,6 +599,33 @@ img {
   .clearMotos {
     clear: none;
   }
+
+  /* MODIFICAÇÕES DA SESSÃO CARROS */
+
+  .sectionCarros {
+    max-width: 100%;
+    height: 2950px;
+    background-color: #000000;
+  }
+
+
+  .descriptionCarros {
+    width: 45%;
+    margin-left: 0%;
+
+    float: none;
+
+    position: relative;
+    top: 0%;
+    left: 50%;
+
+    transform: translate(-50%, 0%);
+  }
+
+  .clearCarros {
+    clear: none;
+  }
+
 }
 
 @media screen and (max-width: 500px) {
@@ -535,6 +716,32 @@ img {
   .clearMotos {
     clear: none;
   }
+
+  /* MODIFICAÇÕES DA SESSÃO CARROS */
+
+  .sectionCarros {
+    background-color: #000000;
+    max-width: 100%;
+    height: 2750px;
+  }
+
+  .descriptionCarros {
+    width: 60%;
+    margin-left: 0%;
+
+    float: none;
+
+    position: relative;
+    top: 0%;
+    left: 50%;
+
+    transform: translate(-50%, 0%);
+  }
+
+  .clearCarros {
+    clear: none;
+  }
+
 }
 
 @media screen and (max-width: 450px) {
@@ -577,6 +784,10 @@ img {
     height: 2200px;
   }
 
+  .descriptionBikes {
+    width: 70%;
+  }
+
   /* MODIFICAÇÕES DA SESSÃO MOTOS */
 
   .sectionMotos {
@@ -586,6 +797,18 @@ img {
   }
 
   .descriptionMotos {
+    width: 70%;
+  }
+
+  /* MODIFICAÇÕES DA SESSÃO CARROS */
+
+  .sectionCarros {
+    background-color: #000000;
+    max-width: 100%;
+    height: 2740px;
+  }
+
+  .descriptionCarros {
     width: 70%;
   }
 
@@ -613,7 +836,7 @@ img {
   .sectionBike {
     background-color: #000000;
     max-width: 100%;
-    height: 2150px;
+    height: 2250px;
   }
 
   /* MODIFICAÇÕES DA SESSÃO MOTOS */
@@ -621,10 +844,22 @@ img {
   .sectionMotos {
     background-color: #000000;
     max-width: 100%;
-    height: 3100px;
+    height: 3200px;
   }
 
   .descriptionMotos {
+    width: 70%;
+  }
+
+  /* MODIFICAÇÕES DA SESSÃO CARROS */
+
+  .sectionCarros {
+    background-color: #000000;
+    max-width: 100%;
+    height: 2640px;
+  }
+
+  .descriptionCarros {
     width: 70%;
   }
 
