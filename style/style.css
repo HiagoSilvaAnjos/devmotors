@@ -12,7 +12,8 @@ body {
 /* CABEÇALHO */
 header {
   padding: 40px;
-  background-color: #f5c907;
+  /* background-color: #f5c907; */
+  background-image: linear-gradient(to right, #9b8402, #f5c907, #f5c907, #aa7a02);
   color: #000000;
   max-width: 100%;
 }
@@ -40,7 +41,7 @@ nav {
 }
 
 li {
-  font-weight: bold;
+  font-weight: 600;
   color: #ffffff;
   float: left;
   list-style: none;
@@ -54,6 +55,7 @@ li {
 }
 
 .links_nav:hover {
+  transition-duration: 1s;
   background-color: #1d1d1c;
   border-radius: 5px;
 }
@@ -321,7 +323,7 @@ img {
   margin-bottom: 100px;
 }
 
-.descriptionCarros{
+.descriptionCarros {
   background-color: #3a3838;
   width: 25%;
   text-align: center;
@@ -393,6 +395,24 @@ img {
   color: #1b1919;
 }
 
+  /* Rodapé */
+
+#footer {
+  text-align: center;
+  color: #ffffff;
+  padding: 10px;
+}
+
+#footer a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#footer a:hover {
+  text-decoration: underline
+}
+
 
 /* Modificações com Media Queire */
 
@@ -404,29 +424,28 @@ img {
     background-color: #000000;
   }
 
-   /* Sessão Carros */
-   .sectionCarros {
+  /* Sessão Carros */
+  .sectionCarros {
     max-width: 100%;
     height: 1600px;
     background-color: #000000;
   }
-
 }
 
 @media screen and (max-width: 1100px) {
-    /* Sessão Motos */
-    .sectionMotos {
-      max-width: 100%;
-      height: 1800px;
-      background-color: #000000;
-    }
+  /* Sessão Motos */
+  .sectionMotos {
+    max-width: 100%;
+    height: 1800px;
+    background-color: #000000;
+  }
 
-    /* Sessão Carros */
-    .sectionCarros {
-      max-width: 100%;
-      height: 1500px;
-      background-color: #000000;
-    }
+  /* Sessão Carros */
+  .sectionCarros {
+    max-width: 100%;
+    height: 1500px;
+    background-color: #000000;
+  }
 }
 
 @media screen and (max-width: 1000px) {
@@ -504,49 +523,44 @@ img {
   .clearCarros {
     clear: none;
   }
-
 }
 
 @media screen and (max-width: 850px) {
-    /* Sessão Motos */
-    .sectionMotos {
-      max-width: 100%;
-      height: 3500px;
-      background-color: #000000;
-    }
+  /* Sessão Motos */
+  .sectionMotos {
+    max-width: 100%;
+    height: 3500px;
+    background-color: #000000;
+  }
 
-    .descriptionMotos {
-        width: 39%;
-        margin-left: 0%;
+  .descriptionMotos {
+    width: 39%;
+    margin-left: 0%;
 
-    
-        position: relative;
-        top: 0%;
-        left: 50%;
-    
-        transform: translate(-50%, 0%);
-      }
-    
+    position: relative;
+    top: 0%;
+    left: 50%;
 
-      /* Sessão Carros */
-    .sectionCarros {
-      max-width: 100%;
-      height: 2850px;
-      background-color: #000000;
-    }
+    transform: translate(-50%, 0%);
+  }
 
-    .descriptionCarros {
-        width: 39%;
-        margin-left: 0%;
+  /* Sessão Carros */
+  .sectionCarros {
+    max-width: 100%;
+    height: 2850px;
+    background-color: #000000;
+  }
 
-    
-        position: relative;
-        top: 0%;
-        left: 50%;
-    
-        transform: translate(-50%, 0%);
-      }
+  .descriptionCarros {
+    width: 39%;
+    margin-left: 0%;
 
+    position: relative;
+    top: 0%;
+    left: 50%;
+
+    transform: translate(-50%, 0%);
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -554,7 +568,6 @@ img {
   #title {
     font-size: 3em;
   }
-
 
   /* MODIFICAÇÕES DA SESSÃO BIKES */
   .descriptionBikes {
@@ -582,7 +595,6 @@ img {
     background-color: #000000;
   }
 
-
   .descriptionMotos {
     width: 45%;
     margin-left: 0%;
@@ -608,7 +620,6 @@ img {
     background-color: #000000;
   }
 
-
   .descriptionCarros {
     width: 45%;
     margin-left: 0%;
@@ -625,7 +636,6 @@ img {
   .clearCarros {
     clear: none;
   }
-
 }
 
 @media screen and (max-width: 500px) {
@@ -741,7 +751,6 @@ img {
   .clearCarros {
     clear: none;
   }
-
 }
 
 @media screen and (max-width: 450px) {
@@ -811,7 +820,6 @@ img {
   .descriptionCarros {
     width: 70%;
   }
-
 }
 
 @media screen and (max-width: 400px) {
@@ -856,11 +864,10 @@ img {
   .sectionCarros {
     background-color: #000000;
     max-width: 100%;
-    height: 2640px;
+    height: 2800px;
   }
 
   .descriptionCarros {
     width: 70%;
   }
-
 }
