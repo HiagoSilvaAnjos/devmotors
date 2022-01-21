@@ -19,12 +19,18 @@
   </head>
 
   <body>
+
+    <!-- Cabeçalho -->
+
     <header>
       <h1 id="title">DevMotors</h1>
       <p id="paragrafo_title">
         Aqui você vai encontrar os mais variados tipos de veículos
       </p>
     </header>
+
+    <!-- Navegação -->
+
     <nav>
       <ul>
         <li>
@@ -43,6 +49,7 @@
     </nav>
 
     <!-- Meu formulário -->
+
     <section class="formContainer">
       <div class="formContent" id="form">
         <h2 class="margin title_form">
@@ -70,19 +77,23 @@
             required
           />
           <select name="PLACE">
+            <option disabled selected>Selecione</option>
             <option value="pa">Pará</option>
             <option value="rj">Rio de Janeiro</option>
             <option value="mg">Minas Gerais</option>
             <option value="sp">São Paulo</option>
             <option value="outro">Outro</option>
           </select>
-          <input type="submit" value="CADASTRE-SE" />
+          <button type="submit">
+            CADASTRE-SE
+          </button>
         </form>
       </div>
     </section>
 
     <main>
       <!-- Sessão bikes -->
+
       <section class="sectionBike" id="Bikes">
         <h2 id="titleBikes">BICICLETAS</h2>
         <div class="descriptionBikes">
@@ -146,7 +157,9 @@
           </div>
         </div>
       </section>
+
       <!-- Sessão Motos -->
+
       <section class="sectionMotos" id="Motos">
         <h2 id="titleMotos">MOTOS</h2>
         <div class="descriptionMotos">
@@ -216,7 +229,9 @@
           </div>
         </div>
       </section>
+
       <!-- Sessão Carros -->
+
       <section class="sectionCarros" id="Carros">
         <h2 id="titleCarros">CARROS</h2>
         <div class="descriptionCarros">
@@ -289,6 +304,9 @@
         </div>
       </section>
     </main>
+
+    <!-- Rodapé -->
+
     <footer id="footer">
       <p>&copySite criado por <a href="https://github.com/hiagosilvaanjos" target="_blank">Hiago Silva</a></p>
     </footer>
